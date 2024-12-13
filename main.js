@@ -4,12 +4,12 @@ let botonFin = document.getElementById("boton-fin");
 let total = 0;
 
 const productos = [
-    {imgSrc: "img/zapa1.png", nombre: "Nike Dunk Hi Retro", precio: 100000, stock: 3 },
-    {imgSrc: "img/zapa2.png", nombre: "Nike Blazer Mid 77", precio: 110900, stock: 9 },
-    {imgSrc: "img/zapa3.png", nombre: "Nike GTS 97", precio: 60000, stock: 2 },
-    {imgSrc: "img/zapa4.png", nombre: "Nike Air Max Flyknit", precio: 200000, stock: 8 },
-    {imgSrc: "img/zapa5.png", nombre: "Nike Air Force 1 High 07", precio: 250000, stock: 6 },
-    {imgSrc: "img/zapa6.png", nombre: "Jordan Series 06", precio: 135000, stock: 2 }
+    {imgSrc: "img/zapas/zapa1.png", nombre: "Nike Dunk Hi Retro", precio: 100000, stock: 3 },
+    {imgSrc: "img/zapas/zapa2.png", nombre: "Nike Blazer Mid 77", precio: 110900, stock: 9 },
+    {imgSrc: "img/zapas/zapa3.png", nombre: "Nike GTS 97", precio: 60000, stock: 2 },
+    {imgSrc: "img/zapas/zapa4.png", nombre: "Nike Air Max Flyknit", precio: 200000, stock: 8 },
+    {imgSrc: "img/zapas/zapa5.png", nombre: "Nike Air Force 1 High 07", precio: 250000, stock: 6 },
+    {imgSrc: "img/zapas/zapa6.png", nombre: "Jordan Series 06", precio: 135000, stock: 2 }
 ];
 
 function pintarProductos(arrayProductos) {
