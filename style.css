@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Rowdies:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: 10%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 80px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    font-size: 1.2vw;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: red;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#hero{
+    width: 100%;
+    background-image: url(/img/hero/fondoinicio.png);
+    padding: 2%;
+    padding-left: 14%;
+    position: static;
+}
+
+#hero h3{
+    font-size: 2.6vw;
+    line-height: 54px;
+    color: #E1493B;
+    text-shadow: 2px 2px 1px black;
+}
+
+#hero h4{
+    font-size: 3vw;
+    color: #C0221B;
+    text-shadow: 2px 2px 1px black;
+}
+
+#hero p{
+    font-size: 1.7vw;
+    color: white;
+    margin: 15px 0 20px 0;
+    text-shadow: 2px 2px 1px black;
+}
+
+#hero button{
+    background-image: url(/img/hero/button.png);
+    background-color: transparent;
+    background-position: center;
+    background-size: 230%;
+    color: white;
+    border: 0;
+    padding: 35px 20px 30px 40px;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+#feature{
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#feature .box{
+    width: 15%;
+    text-align: center;
+    padding: 2% 2%;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 1%;
+}
+
+#feature .box h5{
+    display: inline-block;
+    padding: 6% 3% 3% 3%;
+    color: black;
+    font-size: 1.1vw;
+}
+
+#feature img{
+    width: 90%;
+    height: 90%;
+}
+
+#lista{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.forma{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 22px;
+}
+
+.forma:hover{
+    box-shadow: 8px 8px 15px black;
+}
+.nombre{
+    margin: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    color: red;
+    font-size: 1.2vw;
+}
+.precio{
+    margin: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 1.4vw;
+}
+.forma img{
+    width: 40%;
+    height: 60%;
+}
+#stock0{
+    width: 6%;
+    font-size: 1.0vw;
+}
+#stock1{
+    width: 6%;
+    font-size: 1.0vw;
+}
+#stock2{
+    width: 6%;
+    font-size: 1.0vw;
+}
+#stock3{
+    width: 6%;
+    font-size: 1.0vw;
+}
+#stock4{
+    width: 6%;
+    font-size: 1.0vw;
+}
+#stock5{
+    width: 6%;
+    font-size: 1.0vw;
+}
+#cantidad0{
+    width: 11%;
+    font-size: 1.0vw;
+}
+#cantidad1{
+    width: 11%;
+    font-size: 1.0vw;
+}
+#cantidad2{
+    width: 11%;
+    font-size: 1.0vw;
+}
+#cantidad3{
+    width: 11%;
+    font-size: 1.0vw;
+}
+#cantidad4{
+    width: 11%;
+    font-size: 1.0vw;
+}
+#cantidad5{
+    width: 11%;
+    font-size: 1.0vw;
+}
+
+#btn0{
+    width: 22%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    font-size: 1.1vw;
+    margin-left: 4%;
+}
+#btn0:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 8px black;
+}
+
+#btn1{
+    width: 22%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    font-size: 1.1vw;
+    margin-left: 4%;
+}
+#btn1:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 8px black;
+}
+#btn2{
+    width: 22%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    font-size: 1.1vw;
+    margin-left: 4%;
+}
+#btn2:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 8px black;
+}
+#btn3{
+    width: 22%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    font-size: 1.1vw;
+    margin-left: 4%;
+}
+#btn3:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 8px black;
+}
+#btn4{
+    width: 22%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    font-size: 1.1vw;
+    margin-left: 4%;
+}
+#btn4:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 8px black;
+}
+
+#btn5{
+    width: 22%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: brown;
+    color: white;
+    border: 1px solid black; 
+    font-size: 1.1vw;
+    margin-left: 4%;
+}
+#btn5:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 8px black;
+}
+
+#totalText{
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+    font-size: 1.8vw;
+}
+.contenedorBtn{
+    text-align: center;
+}
+#boton-fin{
+    width: 22%;
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    color: brown;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.2em;
+    box-shadow: 8px 8px 20px black;
+    font-size: 1.8vw;
+}
+
+#boton-fin:hover{
+        cursor: pointer;
+        box-shadow: none;
+}
