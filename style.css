@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-.logo{
+#logo{
     padding: 0;
     margin: 0;
     width: 10%;
@@ -48,11 +48,11 @@
 }
 
 #navbar li a:hover,
-#navbar li a.active{
+#navbar li a#active{
     color: red;
 }
 
-#navbar li a.active::after,
+#navbar li a#active::after,
 #navbar li a:hover::after{
     content: "";
     width: 30%;
@@ -304,7 +304,7 @@
     font-family: "Rowdies", sans-serif;
     font-size: 1.8vw;
 }
-.contenedorBtn{
+#contenedorBtn{
     text-align: center;
 }
 #boton-fin{
